@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Challenge55</title>
+    </head>
+    <body>
+        <h1>Race Registration</h1>
+        <form 
+        name="email" 
+        action="mail.php"
+        method="get"
+        >
+        <p>AD</p>
+        <input type="text"
+        name="AD"
+        placeholder="AD"
+        max="30" required>
+        <p>SOYAD</p>
+        <input type="text"
+        name="SOYAD"
+        placeholder="SOYAD"
+        max="30" required> <br> <br>
+        <h1>Select a Race:</h1>
+        <form action="">
+            <label 
+            for="fr5k">Fun Run 5K</label>
+            <input 
+            type="radio" 
+            name="race" 
+            id="fr5k" 
+            value="fr5k"></label> <br>
+            <label 
+            for="hm">Half Marathon</label>
+            <input 
+            type="radio" 
+            name="hm" 
+            id="hm" 
+            value="hm"></label> <br>
+            <label 
+            for="fm">Full Marathon</label>
+            <input 
+            type="radio" 
+            name="fm" 
+            id="fm" 
+            value="fm"></label> <br> <br>
+        </form>
+        <form>
+            <form action="giriş">
+                <p>E-Mail</p>
+                <input
+                type="email"
+                name="email"
+                placeholder="Mail Adresiniz"
+                required
+                minlenght="5"
+                maxlenght="15"
+                />
+                <p>Şifre</p>
+                <input
+                type="password"
+                name=""
+                placeholder="Şifreniz"
+                minlengt="5"
+                maxlength="15"
+                />
+        </form> <br>
+        <form action="Under 18">    
+            <label for="Under 18">Select Age Group</label>
+            <select name="Under 18">
+                <option value="">Under 18</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option> 
+            </select>
+        </form>
+           
+        <button>Register</button>
+    </body>
+    <!-- file://mehinmry/Users/Public/kodlar/html-personal%20website/challenge55.html -->
+</html>

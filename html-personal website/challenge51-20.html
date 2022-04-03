@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Challenge 50-20</title>
+    </head>
+    <body>
+        <h2>Input</h2>
+        <label>
+            <input 
+            type="checkbox" 
+            name="agree" 
+            value="">Kabul ediyorum.<br> <br>
+        </label>
+        <input type="radio" name="xs">XS
+        <input type="radio" name="m">M
+        <input type="radio" name="l">L <br> <br>
+        <button>Submit</button>
+        <!-- Benim örneklemem -->
+        <hr>
+        <form action="">
+            <input 
+            type="checkbox" 
+            name="agree" 
+            value="">Kabul ediyorum.<br> <br>
+            <label 
+            for="xs">XS</label>
+            <input 
+            type="radio" 
+            name="beden" 
+            id="xs" 
+            value="xs"></label>
+            <label 
+            for="m">M</label>
+            <input 
+            type="radio" 
+            name="beden" 
+            id="m" 
+            value="m"></label>
+            <label 
+            for="l">L</label>
+            <input 
+            type="radio" 
+            name="beden" 
+            id="l" 
+            value="l"></label> <br> <br>
+            <button>Gönder</button>
+            <!-- Murat Hocadan gördüğüm -->
+        </form>
+        <hr>
+        <!-- dropdown açılabilir menü -->
+        <form action="Hayvanlar">
+            <label for="Hayvan">Hayvanlar</label>
+            <select name="pets" id="hayvan">
+                <option value="">Hayvanınızı Seçininiz</option>
+                <option value="aslan" selected>Aslan</option>
+                <option value="balık">Balık</option>
+                <option value="kuş">Kuş</option>
+                <option value="kedi">Kedi</option>
+            </select>
+            <button>Submit</button>
+        </form>
+        <!-- drowdown açılabilir menü sonu -->
+        <hr>
+        <!-- Range çubuğu ekleme -->
+        <form action="">
+            <label 
+            for="range">Evdeki peynir miktarı</label>
+            <input 
+            type="range" 
+            name="peynir" 
+            id="range" 
+            min="10" 
+            max="100" 
+            step="20" 
+            value="75">
+            <button>Yolla</button>
+        </form>
+        <!-- range çubuğu eklendi -->
+        <hr>
+        <form action="/isim">
+            <label 
+            for="metin">Mesajınız</label> 
+            <textarea 
+            name="metin" 
+            cols="20" 
+            rows="10">Buraya metin ekleyiniz.</textarea>
+            <input type="submit"/>
+        </form>
+        <hr>
+        <form action="mehtap">
+            <input
+            type="text"
+            placeholder="kullanıcı adı"
+            required
+            minlenght="5"
+            maxlenght="10"
+            />
+            <input
+            type="password"
+            name=""
+            placeholder="password"
+            minlengt="5"
+            />
+            <button>Yolla</button>
+        </form>
+    </body>
+</html>
